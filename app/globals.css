@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #8e082e;
+  --brand-text: #101113;
+  --brand-bg: #fff7fa;
+  --brand-border: #efd3dc;
+}
+html, body {
+  color: var(--brand-text);
+  background: var(--brand-bg);
+}
+a { text-decoration: none; }
