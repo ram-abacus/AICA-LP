@@ -88,11 +88,11 @@ export default function Page() {
       <header className="sticky top-0 z-50 border-b backdrop-blur supports-[backdrop-filter]:bg-white/70" style={{ borderColor: BRAND.border }}>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="logo.svg" alt="Aica Sunmica Logo" className="w-20 md:w-40 h-9 object-contain" />
-            <div>
+            <img src="logo.svg" alt="Aica Sunmica Logo" className="w-28 md:w-40 h-9 object-contain" />
+            {/* <div>
               <p className="text-xs tracking-wider text-neutral-500">{BRAND.name}</p>
               <h1 className="text-sm sm:text-base font-semibold">{BRAND.product}</h1>
-            </div>
+            </div> */}
           </div>
           <a href="#lead-form" className="px-4 py-2 rounded-xl font-semibold border" style={{ background: BRAND.primary, borderColor: BRAND.primary, color: '#fff' }}>
             Get Best Quote
