@@ -81,9 +81,9 @@ export default function Page() {
 
   return (
     <div className="min-h-screen w-full" style={{ background: BRAND.bg, color: BRAND.text }}>
-      <div className="w-full text-center text-sm py-2" style={{ background: BRAND.primary, color: '#fff' }}>
+      {/* <div className="w-full text-center text-sm py-2" style={{ background: BRAND.primary, color: '#fff' }}>
         <span className="font-semibold">Festive Offer:</span> Free sample kit + shade card on first consultation
-      </div>
+      </div> */}
 
       <header className="sticky top-0 z-50 border-b backdrop-blur supports-[backdrop-filter]:bg-white/70" style={{ borderColor: BRAND.border }}>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
